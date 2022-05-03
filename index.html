@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ADVENTURE</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<!-- Navbar -->
+		<nav class="navbar">
+			<h1 class="logo">ADVENTURE</h1>
+			<ul class="nav-links">
+				<li class="active"><a href="#" ></a>Home</li>
+				<li><a href="#" ></a>Tours</li>
+				<li><a href="#" ></a>Explore</li>
+				<li><a href="#" ></a>About</li>
+				<li class="ctn"><a href="#"  ></a>Content</li>
+			</ul>
+
+			<img src="https://cdn4.iconfinder.com/data/icons/ui-office/512/User_Interface-58-128.png" alt=""   class="menu-btn">
+		</nav>
+	<header>
+	<div class="header-content">
+			<h2>Explore the colorful World</h2>
+			<div class="line"></div>
+				<h1>A WONDERFULL GIFT</h1>
+				<a href="#" class="ctn" >Watch More</a>
+
+
+			
+		</div>
+	</header>
+	<!-- Events -->
+	<section class="events">
+		<div class="title">
+			<h1>UPCOMING EVENTS</h1>
+			<div class="line"></div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<img src="https://images.unsplash.com/photo-1523341139367-9de570b874ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGV2ZXJlc3R8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60">
+				<h4>Everest Camp Trek</h4>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+				<a href="#" class="ctn">Watch More</a>
+
+			</div>
+			<div class="col">
+				<img src="https://images.unsplash.com/photo-1506869640319-fe1a24fd76dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2Fsa2luZyUyMGhvbGlkYXl8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60">
+				<h4>Walking Holidays</h4>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+				<a href="#" class="ctn">Watch More</a>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="explore">
+		<div class="explore-content">
+			<h1>Explore The World</h1>
+			<div class="line"></div>
+		 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+		 <a href="#" class="ctn">Watch More</a> 
+		</div>
+	</section>
+
+	<section class="tours">
+		<div class="row">
+			<div class="col content-col">
+				<h1> Upcoming Tour & Destination</h1>
+				<div class="line"></div>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
+				<a href="#" class="ctn">Watch More</a>
+			</div>
+			<div class="col image-col">
+				<div class="image-gallery">
+					<img src="https://media.istockphoto.com/photos/young-man-with-backpack-taking-selfie-portrait-on-a-mountain-smiling-picture-id1329031407?b=1&k=20&m=1329031407&s=170667a&w=0&h=J6qRqj9hbKtSVwIfMJhcRXf3AEyAOshph2IAbPHwNUo=">
+					<img src="https://media.istockphoto.com/photos/lady-with-kayak-picture-id516449022?b=1&k=20&m=516449022&s=170667a&w=0&h=kgLt9ELGehVZDxXhDUJB6OyNHuiPb_9k81VlyzzjcLo=">
+					<img src="https://media.istockphoto.com/photos/tourist-driving-buggy-on-genipabu-beach-picture-id1301086375?b=1&k=20&m=1301086375&s=170667a&w=0&h=Eesi4DkBKW3RdJEFTnH3JNsblsEznlUR99Fh5JDeK2o=">
+					<img src="https://images.unsplash.com/photo-1528127269322-539801943592?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dG91cnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="footer">
+		<p>123 Noida sec 62, Pin 110096, Delhi NCR| Mobile No. 800-123-456 | Email: contact@examp</p>
+		<p>Copyright © 2022 Outdoor Adventure</p>
+	</section>
+	<script>
+		const menuBtn = document.querySelector('.menu-btn')
+		const navlinks = document.querySelector('.nav-links')
+
+		menuBtn.addEventListener('click',()=>{
+			navlinks.classList.toggle('mobile-menu')
+		})
+	</script>
+
+</body>
+</html>
